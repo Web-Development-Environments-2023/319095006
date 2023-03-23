@@ -17,6 +17,19 @@
 	position: relative;
 }
 
+img {
+	padding: 5px;
+	width : 400px;
+	height: 500px;
+}
+
+.himg img
+{
+	padding: 5px;
+	width : 480;
+	height: 350px;
+}
+
 
 
 
@@ -31,7 +44,7 @@ a{
 h2{
 	font-size: 20px;
 	color: rgb(254, 245, 245);
-	padding: 10px;
+	padding: 2px;
 	text-align: center;
 	background-color: rgb(180, 142, 128);
 	height: 80%;
@@ -46,6 +59,7 @@ p {
 	height: 80%;
 	display: flex;
 	flex-direction: column;
+	font-family: 'Arial', sans-serif;
 }
 
 .QR {
@@ -58,6 +72,12 @@ p {
 	width: 200px;
 	height: 200px;
 	margin: 0 auto;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	height : 100%;
 }
 
 
