@@ -5,6 +5,7 @@
 	height: 50px;
 	background: rgb(171, 85, 54);
 	display: flex;
+	font: caption;
 	
 
 }
@@ -21,6 +22,7 @@ img {
 	padding: 5px;
 	width : 400px;
 	height: 500px;
+	border: black;
 }
 
 .himg img
@@ -39,6 +41,12 @@ a{
 	font-size: 20px;
 	padding: 10px;
 	padding-left: 20px;
+	font: caption;
+}
+
+a:hover{
+	color: rgb(254, 245, 245);
+	background-color: rgb(180, 142, 128);
 }
 
 h2{
@@ -46,20 +54,19 @@ h2{
 	color: rgb(254, 245, 245);
 	padding: 2px;
 	text-align: center;
-	background-color: rgb(180, 142, 128);
+	background-color: rgb(99, 85, 176);
 	height: 80%;
+	font: caption;
 	
 }
 
 p {
-	font-size: 20px;
-	color:black;
-	padding: 10px;
-	text-align: center;
-	height: 80%;
-	display: flex;
-	flex-direction: column;
-	font-family: 'Arial', sans-serif;
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font: caption;
 }
 
 .QR {
@@ -69,15 +76,16 @@ p {
 
 .QR img
 {
-	width: 200px;
-	height: 200px;
+	width: 350px;
+	height: 350px;
 	margin: 0 auto;
 }
 
 section{
 	display: flex;
 	flex-direction: column;
-	height : 100%;
+	background-color: rgb(245, 242, 242);
+	font: caption;
 }
 
 
